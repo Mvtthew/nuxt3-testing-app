@@ -14,6 +14,10 @@ const conter = useCounter();
             Users
         </nuxt-link>
 
+        <nuxt-link to="/pages">
+            Pages
+        </nuxt-link>
+
         <counter-text :prop1="conter" />
         <counter-add-button />
         <counter-subtract-button />
