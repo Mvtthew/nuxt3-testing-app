@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const conter = useCounter();
+const { $hello } = useNuxtApp();
 </script>
 
 <template>
@@ -9,6 +10,7 @@ const conter = useCounter();
         </Html>
 
         <h1>Witam</h1>
+        {{ $hello() }}
 
         <nuxt-link to="/users">
             Users

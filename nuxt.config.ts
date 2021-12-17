@@ -2,10 +2,11 @@ import { defineNuxtConfig } from 'nuxt3';
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+    css: ['~/assets/index.css'],
     publicRuntimeConfig: {
-        BASE_URL: process.env.BASE_URL,
+        API_BASE: '/api',
     },
     privateRuntimeConfig: {
-        API_SECRET: process.env.API_SECRET,
+        API_SECRET: '123',
     },
 });

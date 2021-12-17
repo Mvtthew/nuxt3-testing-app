@@ -73,6 +73,7 @@
             "multiline-arguments"
         ],
         "vue/multi-word-component-names": "off",
-        "no-undef": "off"
+        "no-undef": "off",
+        "object-curly-spacing": ["error", "always"]
     }
 }
