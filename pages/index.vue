@@ -1,14 +1,14 @@
 <script setup lang="ts">
+useMeta({
+    title: 'Index',
+});
+
 const conter = useCounter();
 const { $hello } = useNuxtApp();
 </script>
 
 <template>
     <div>
-        <Html>
-            <Title>Indeks</Title>
-        </Html>
-
         <h1>Witam</h1>
         {{ $hello() }}
 

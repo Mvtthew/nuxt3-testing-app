@@ -1,11 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useMeta({
+    title: 'Users',
+});
+</script>
 
 <template>
     <div>
-        <Html>
-            <Title>Users</Title>
-        </Html>
-
         <nuxt-link to="/">
             Home
         </nuxt-link>

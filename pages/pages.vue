@@ -4,7 +4,11 @@ export default {
 };
 </script>
 
-<script setup></script>
+<script setup>
+useMeta({
+    title: 'Pages',
+});
+</script>
 
 <template>
     <div>
